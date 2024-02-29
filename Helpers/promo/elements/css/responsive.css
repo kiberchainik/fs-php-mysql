@@ -1,0 +1,155 @@
+/*
+    Theme Responsive Design
+*/
+
+@media (max-width: 1024px) {
+	
+}
+
+/* ---- Start of max-width 992px CSS ---- */
+@media (max-width: 992px) {
+    .sm-br-none br{ display: none; }
+    .sm-padding{ padding: 15px; }
+    .sm-no-padding,
+    .about_content,
+    .content-2 .cta_content,
+    .content-1 .about_content { padding: 0!important; }
+    .hero-1 .hand_moc{ background-position: right 40px; }
+    .hero-13 .hero_content { padding: 78px 0; }
+    .hero-13 .hero_content h1{ font-size: 30px; }
+    .hero-13 .form_container h2{ font-size: 18px; }
+    .hero-13 .form_container p{ font-size: 12px; }
+    .content-2 .cta_moc .cta_moc_1{ width: 85%; }
+    .cta_moc .cta_moc_2 { width: 80%; }
+    .counter-6 .fs_countdown li{ width: 25%; }
+    .content-26 .about_bg{ width: 48%; background-position: -380px bottom!important; }
+    .feature-1 .feature_moc .feature_moc_1{ width: 85%; margin-left: -60px; }
+    .feature-1 .feature_moc .feature_moc_2 { width: 80%; right: 24px; }
+    .feature-1:before{ width: 68%; }
+    .feature-3 .service_items.inverted,
+    .feature-3 .service_items{ margin: 0; }
+    .feature-3 .service_items.inverted .service_item{ margin-left: 0; }
+    .feature-3 .service_items.inverted .service_item,
+    .feature-3 .service_items .service_item,
+    .feature-3 .service_items { padding: 0; }
+    .feature-3 .service_items .service_item h3{ margin: 5px 0; }
+    .feature-3 .service_items .service_item p{ font-size: 12px; line-height: 18px; }
+    .feature-16 .service_items li:nth-child(3){ margin-bottom: 30px; }
+    .tab-8 .tab_content .service_content { padding: 20px 0; }
+    .tab-8 .tab_menu li a { padding: 0 10px; font-size: 10px; line-height: 40px; }
+    .cta-3 .download_moc img { width: 88%; top: -157px; left: 0; }
+    .pricing-2 .pricing_content .fs_btn { position: inherit; bottom: -15px; right: 0; }
+    .carousel-1 .screen_wrap{ width: 100%; }
+    .carousel-1 .screen_wrap .swiper-container{ margin-left: -3px; }
+    .carousel-9 .gallery_head { padding: 20px 20px 0; }
+    .carousel-9 .gallery_carousel .owl-nav div{ bottom: 10px; left: -75px; }
+    .carousel-9 .gallery_carousel .owl-nav div.owl-next{ left: -40px; }
+    .contact-5 .contact_list li{ font-size: 10px; line-height: 16px; }
+    .contact-5 .contact_list li br{ display: none; }
+    .subscribe-8 .subscribe_content { padding: 63px 0; }
+
+}
+/* ---- End of max-width 992px CSS ---- */
+
+
+/* ---- Start of min-width 480px and max-width 768px CSS ---- */
+@media all and (min-width: 480px) and (max-width: 768px) {
+	
+}
+/* ---- End of min-width 480px and max-width 768px CSS ---- */
+
+
+/* ---- Start of max-width 767px CSS ---- */
+@media all and (max-width: 767px) {
+    body, p{ font-size: 12px; line-height: 22px; }
+    h1{ font-size: 30px!important; }
+    h2{ font-size: 20px!important;; }
+    h3{ font-size: 16px!important;; }
+    p br{ display: none; }
+    .padding{ padding: 60px 0; }
+    .xs-padding{ padding: 15px; }
+    .xs-no-padding{ padding: 0!important; }
+    .height_7,
+    .slider_height{ height: 500px; }
+    .menu-w-hero-1.hero_section{ height: auto; }
+    .menu-w-hero-1 .hero_content { padding: 100px 0 40px; }
+    .menu-w-hero-1 .form_container{ margin-bottom: 40px; }
+	.contact_form .form-group .col-sm-6:first-child{ margin-bottom: 15px; }
+    .hero-2 .hero_content { padding: 80px 0; }
+    .hero-4 .hero_content h2{ margin: 0; }
+    .hero-16.hero_section,
+    .hero-13.hero_section{ height: auto; }
+    .hero-13 .hero_content { padding: 30px 0; text-align: center; }
+    .hero-13 .hero_content h1 br{ display: none; }
+    .hero-16 .hero_content { padding: 100px 0 40px; }
+    .hero-19 .hero_content{ margin-bottom: 0; }
+    .hero-19 .hero_bottom{ -webkit-background-size: 60%; background-size: 60%; }
+    .content-11 .menu_items .menu_item{ padding-right: 0; padding-left: 80px; }
+    .content-11 .menu_items .menu_item img{ right: auto; left: 0; }
+    .content-11 .menu_items li:nth-child(2n+1) .menu_item .menu_content{ text-align: left; }
+    .content-11 .menu_items li:nth-child(2n+1) .menu_item span.price{ right: 20px; left: auto; }
+    .counter-6 .fs_countdown li{ width: 50%; }
+    .content-23 .about_image{ padding: 10px; }
+    .feature-14:before,
+    .feature-1:before{ width: 100%; }
+    .feature-13 .service_items.inverted .service_item,
+    .feature-13 .service_items .service_item,
+    .feature-3 .service_items.inverted .service_item,
+    .feature-3 .service_items .service_item{ text-align: center; }
+    .feature-15 .service_items .service_item{ padding-left: 90px; padding-right: 90px; text-align: left; }
+    .feature-15 .service_items .service_item i{ right: auto; left: 0; }
+    .portfolio-3 .gallery_items .tab_menu li a{ padding: 0 15px; font-size: 10px; }
+    .cta-3 .download_moc img { width: 113%; top: -150px; left: -15px; }
+    .cta-3 .dl_moc{ margin: -30px 0; }
+    .carousel-1 .screen_wrap { width: 285px; }
+    .carousel-1 .screen_wrap .swiper-container{ margin-left: 14px; }
+    .carousel-6 .project_slider .slide_content .project_info{ width: 80%; margin: 0 auto; }
+    .carousel-8 .content_slider .owl-nav div{ left: 0; }
+    .carousel-8 .content_slider .owl-nav div.owl-next{ right: 0; }
+    .carousel-9 .gallery_carousel .owl-nav div{ bottom: calc(50% - 15px); left: 0; }
+    .carousel-9 .gallery_carousel .owl-nav div.owl-next{ left: auto; right: 0; }
+    .testi-2 .owl-nav div.owl-prev{ left: 0; }
+    .testi-2 .owl-nav div.owl-next{ right: 0; }
+    .contact-5 .contact_left,
+    .contact-5 .contact_right{ padding: 60px; }
+
+}
+/* ---- End of max-width 767px CSS ---- */
+
+
+/* ---- Start of max-width 520px CSS ---- */
+@media all and (max-width: 520px) {
+    h1{ font-size: 24px!important; }
+    .col-xs-6{ float: none; width: 100%; }
+    .client-2 .brands .col-xs-6{ float: left; width: 50%; padding: 5px; }
+    .height_7,
+    .slider_height{ height: 380px; }
+    .subscribe_form .submit { margin-top: 10px!important; margin-left: 0!important; width: 100%!important; }
+    .subscribe_form .form_input {
+        width: 100%!important;
+    }
+    .hero-18 .hero_content .content_inner{ padding: 40px; }
+    .hero-19 .hero_bottom{ display: none; }
+    .feature-6 .promo_items .promo_content{ text-align: center; }
+    .subscribe_form .submit { margin-top: 10px; width: 100%; }
+    .subscribe_form .form_input { width: 100%; }
+    .subscription-2 .subscribe_form{ width: 95%; }
+    .contact-12 .reserv_form .form-group .col-xs-6:first-child{ margin-bottom: 15px; }
+    
+/* ---- End of max-width 520px CSS ---- */
+
+
+/* ---- Start of max-width 420px CSS ---- */
+@media all and (max-width: 420px) {
+    .paypalform .modal-dialog{
+        width: 80%;
+    }
+}
+/* ---- End of max-width 420px CSS ---- */
+
+
+/* ---- Start of max-width 380px CSS ---- */
+@media all and (max-width: 380px) {
+	.counter-6 .fs_countdown li{ width: 100%; }
+}
+/* ---- End of max-width 380px CSS ---- */

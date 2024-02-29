@@ -1,0 +1,32 @@
+<?php
+	$lang = array(
+        'title' => 'Crearea unei pagini promoționale',
+        'title_advert' => 'Titlul paginii',
+        'keywords' => 'Cuvinte cheie',
+        'category' => 'Categoria paginii promoționale',
+        'select' => 'Alege',
+        'description' => 'Scurta descriere',
+        'main_promo_img' => 'Imaginea principală',
+        'cover_images' => 'Coperta paginii promoționale',
+        'other_images' => 'Imagini suplimentare',
+        'save' => 'Salvați',
+        '' => '',
+        '' => '',
+        '' => '',
+        '' => '',
+        '' => '',
+        '' => '',
+        '' => '',
+        '' => '',
+        '' => '',
+        '' => '',
+        '' => '',
+        '' => '',
+        '' => '',
+        '' => '',
+        '' => '',
+        '' => '',
+        '' => '',
+        '' => ''
+    );
+?>

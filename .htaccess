@@ -1,0 +1,50 @@
+AddDefaultCharset UTF-8
+php_value session.cookie_httponly 1
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?route=$1 [L,QSA]
+
+RewriteCond %{HTTP_HOST} ^www\.(.*)$
+RewriteRule ^(.*)$ https://%1/$1 [L,R=301]
+
+#ƒл€ редиректа 301 вида Уваш_сайт/index.phpФ на Уhttp://ваш_сайт/Ф :
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/ 
+RewriteRule ^index\.php$ https://findsol.it [R=301,L]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/ 
+RewriteRule ^index\.html$ https://findsol.it [R=301,L]
+
+ErrorDocument 404 https://findsol.it/error
+
+#перенаправление с http на https
+RewriteCond %{HTTPS} !=on
+RewriteRule ^.*$ https://%{SERVER_NAME}%{REQUEST_URI} [R,L]
+
+# «апретить другим сайтам использовать пр€мые ссылки на ваши картинки
+RewriteCond %{HTTP_REFERER} !^$
+# ƒальше список разрешенных доменов
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www.)?facebook.com.*$ [NC]
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www.)?google. [NC]
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www.)?yandex.ru [NC]
+
+# -ExecCGI запрещает запуск CGI скриптов
+# -Indexes запрещает показывать содержимое каталогов, если в них нет индексного файла
+# -Includes запрещает SSI
+# +FollowSymLinks позвол€ет использовать символические ссылки на файлы или каталоги, не наход€щиес€ в пределах корн€ вашего сайта.
+Options All -ExecCGI -Indexes -Includes +FollowSymLinks
+
+AddHandler application/x-httpd-php .html
+AddHandler cgi-script .pl .py .jsp .asp .htm .shtml .sh .cgi
+AddType application/x-javascript .js
+AddType text/css .css
+AddType text/xml .xml
+AddType application/octet-stream .doc .mov .avi .pdf .xls
+
+<ifModule mod_php.c>
+  php_value	upload_max_filesize	32M
+  php_value	post_max_size		10M
+  php_value	default_charset utf-8
+  php_value	max_execution_time 200
+</ifModule>

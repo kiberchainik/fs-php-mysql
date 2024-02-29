@@ -1,0 +1,40 @@
+<?php
+	$lang = array(
+        'title' => 'Area privata',
+        'login' => 'Login',
+        'pass' => 'Password',
+        'email' => 'E-mail',
+        'register' => 'Nuovo account',
+        'remember' => 'Ricordami',
+        'forgetpass' => 'Recupero password',
+        'or_login_whis' => 'Entra con ',
+        'reg_subject' => 'Registrazione sul sito FindSolution con ',
+        'reg_message' => 'Gentile utente, ti sei registrato con successo nel sistema, quindi usa la tua password per entrare <span style="background: #333; font-size: 20px; color: wheat; padding: 10px; border-radius: 5px;">%s</span>',
+        'auth_subject' => '',
+        'auth_message' => '',
+        'recovery_login' => 'Recupera password',
+        'recovery' => 'Recupera',
+        'recovery_email_subject' => 'Hai reimpostato password su FindSolution',
+        'recovery_email_send' => 'Salve {login}, hai reimpostato con successo la tua vecchia password. <br />Nuova password e <span style="background: #333; font-size: 20px; color: wheat; padding: 10px; margin: 10px; border-radius: 5px;">{password}</span>',
+        'recovery_success' => 'La tua nuova password ti e stata inviata via email',
+        'error_email' => 'Email non e corretta o non esiste!',
+        
+        'social_reg_subject' => 'Registrazione con ',
+        'social_register_welcome_body' => 'Salve <b>%s</b>, benvenuto FindSolution! Hai effetuato registrazione sul FindSolution con %s. <br />Password per entrare in aria privata <span style="background: #333; font-size: 20px; color: wheat; padding: 10px; margin: 10px; border-radius: 5px;">%s</span>',
+        
+        'register_welcome_title' => 'Benvenuto in FindSolution',
+        'register_welcome_body' => 'Salve <b>%s</b>, siamo lieti di darti il benvenuto sul sito web di FindSolution! Ora c\'e un numero limitato di funzioni per te, per utilizzare tutte le funzioni del sito, accedi al tuo account personale per compilare il tuo profilo con i dati personali. </br>Rispettosamente, FindSolution.',
+        'register_welcome_btn' => 'Entra nell\'account FindSolution',
+        'empty_login' => 'Scrivi login',
+        'empty_pass' => 'Scrivi password',
+        'empty_email' => 'Inserisci email',
+        'empty_user_type' => 'Seleziona il tipo dell\'account',
+        'user_not_exist' => 'Login sbagliato o non trovato!',
+        'pass_is_wrong' => 'Password sbagliato',
+        'error_login' => 'Login comprende i simboli a-z A-Z 0-9 . _ -',
+        'email_exist' => 'Email esiste',
+        'login_exist' => 'Login esiste',
+        'type_is_wrong' => 'Il tipo dell\'account errato',
+        'text_spam_avision' => '<b>Se email non è nella casella di posta, controlla lo spam!</b>'
+    );
+?>

@@ -1,0 +1,61 @@
+#header, #content, #footer {
+  border: 2px solid #a8dadc;
+  padding: 10px;
+  border-radius: 25px;
+  margin-bottom: 35px;
+}
+
+#header {
+    margin-top: 10px;
+}
+
+#header h3, #content h3, #footer h3 {
+  background: white;
+  position: absolute;
+  margin-top: -40px;
+  padding: 5px 15px;
+  border-radius: 25px;
+  margin-left: 27%;
+  z-index: 99;
+  border: 2px solid #a8dadc;
+}
+
+#content h3 {
+    margin-left: 20%;
+}
+
+#services input {
+  width: 95%;
+  margin-bottom: 5px;
+}
+
+#mobile input, #email input {
+  width: 90%;
+  margin-bottom: 5px;
+}
+
+#services a, #mobile a, #email a {
+  float: right;
+}
+
+.btn_services_add, .btn_mobile_add, .btn_email_add {
+  background: #76f996;
+  border: 2px solid #4db767;
+}
+
+.btn_services_delete, .btn_mobile_delete, .btn_email_delete {
+  background: #ff8e8e;
+  border: 2px solid #b74d4d;
+}
+
+.btn_services_add, .btn_mobile_add, .btn_email_add,
+.btn_services_delete, .btn_mobile_delete, .btn_email_delete {
+  border-radius: 25px;
+  padding: 2px 11px;
+  font-size: 20px;
+  display: block;
+  font-weight: bold;
+  margin-top: 1px;
+  cursor: pointer;
+  margin-left: 5px;
+}

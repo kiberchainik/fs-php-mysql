@@ -1,0 +1,2 @@
+[24-Jul-2023 16:00:21 UTC] PHP Warning:  Undefined variable $regionList in /home5/urlpyrtf/public_html/api/api.php on line 392
+[24-Jul-2023 16:12:24 UTC] PHP Warning:  Undefined variable $provincesList in /home5/urlpyrtf/public_html/api/api.php on line 411

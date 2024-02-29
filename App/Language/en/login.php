@@ -1,0 +1,40 @@
+<?php
+	$lang = array(
+        'title' => 'Login to your personal account ',
+        'login' => 'Login',
+        'pass' => 'Pasword',
+        'email' => 'E-mail',
+        'register' => 'Register',
+        'remember' => 'Remember me',
+        'forgetpass' => 'Forgot your password?',
+        'or_login_whis' => 'Login with ',
+        'reg_subject' => 'Registration on the site FindSolution with ',
+        'reg_message' => 'Hello dear %s, you have successfully registered in the system, then use your password to enter <span style="background: #333; font-size: 20px; color: wheat; padding: 10px; border-radius: 5px;">%s</span>',
+        'auth_subject' => '',
+        'auth_message' => '',
+        'recovery_login' => 'Recovery password',
+        'recovery' => 'Recovery',
+        'recovery_email_subject' => 'Recovery password on the FindSolution',
+        'recovery_email_send' => 'Hello dear {login}, You have successfully reset your old password. <br />New password <span style="background: #333; font-size: 20px; color: wheat; padding: 10px; margin: 10px; border-radius: 5px;">{password}</span>',
+        'recovery_success' => 'Your new password has been sent to you by email',
+        'error_email' => 'Invalid email address format or dont exist!',
+        
+        'social_reg_subject' => 'Registration with',
+        'social_register_welcome_body' => 'Hello dear <b>%s</b>, welcome to FindSolution! You are logged in to the site as a private user through a social network %s. For full registration, use the registration form. <br />Use your password to log into your account <span style="background: #333; font-size: 20px; color: wheat; padding: 10px; margin: 10px; border-radius: 5px;">%s</span>',
+        
+        'register_welcome_title' => 'Welcome to FindSolution',
+        'register_welcome_body' => 'Hello dear <b>%s</b>, we are glad to welcome you to the FindSolution website! Now you have a limited number of functions, to use all the functions of the site, enter your personal account to fill in your profile with personal data. </br>Respectfully, FindSolution.',
+        'register_welcome_btn' => 'Open account FindSolution',
+        'empty_login' => 'Enter login',
+        'empty_pass' => 'Enter password',
+        'empty_email' => 'Enter email',
+        'empty_user_type' => 'Select type of account',
+        'user_not_exist' => 'User not exists or wrong!',
+        'pass_is_wrong' => 'Password is wrong!',
+        'error_login' => 'Login error',
+        'email_exist' => 'Email exist',
+        'login_exist' => 'Login exist',
+        'type_is_wrong' => 'Type of person is wrong',
+        'text_spam_avision' => '<b>If the email is not in your inbox, check spam!</b>'
+    );
+?>
